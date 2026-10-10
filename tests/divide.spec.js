@@ -12,7 +12,7 @@ describe("Iteration 2", () => {
       it("should take two arguments", () => {
         expect(divide.length).toBe(2);
       });
-      it("should return the sum of the two numbers", () => {
+      it("The function should return the division of the two numbers.", () => {
         expect(divide(2, 2)).toEqual(1);
         expect(divide(10, 2)).toEqual(5);
         expect(divide(6, 2)).toEqual(3);
